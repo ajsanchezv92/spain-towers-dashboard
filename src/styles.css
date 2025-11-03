@@ -1,0 +1,9 @@
+/* Minimal styles for layout */
+body { font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial; }
+.header { background: linear-gradient(90deg,#06b6d4,#7c3aed); color: white; padding: 12px 16px; display:flex; justify-content:space-between; align-items:center;}
+.controls { width: 320px; padding: 12px; background: white; border-right: 1px solid #e5e7eb; }
+.map { height: calc(100vh - 56px); width: 100%; }
+.btn { display:inline-block; padding:8px 10px; border-radius:6px; cursor:pointer; }
+.btn-primary { background:#4f46e5; color:white; border:none; }
+.btn-ghost { background:#f3f4f6; border:1px solid #e5e7eb; color:#111827; }
+.small { font-size: 13px; color: #374151; }
